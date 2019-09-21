@@ -1,0 +1,14 @@
+{
+  "name": "mediacomfalta",
+  "version": "1.0.0",
+  "description": "Calcula a média do aluno e informa se o mesmo foi aprovado.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Danilo Filitto",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
