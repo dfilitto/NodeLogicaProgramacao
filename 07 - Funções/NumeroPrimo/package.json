@@ -1,0 +1,18 @@
+{
+  "name": "numeroprimo",
+  "version": "1.0.0",
+  "description": "Verifica se um valor corresponde a um número primo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Numero",
+    "rimo"
+  ],
+  "author": "Danilo Filitto",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

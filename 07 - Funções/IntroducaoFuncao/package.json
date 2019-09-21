@@ -1,0 +1,14 @@
+{
+  "name": "introducaofuncao",
+  "version": "1.0.0",
+  "description": "Introdução ao conceito de funções",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "function"
+  ],
+  "author": "Danilo Filitto",
+  "license": "ISC"
+}

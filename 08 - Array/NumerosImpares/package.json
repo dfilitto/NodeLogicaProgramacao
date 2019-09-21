@@ -1,0 +1,17 @@
+{
+  "name": "numerosimpares",
+  "version": "1.0.0",
+  "description": "Armazena os números impares",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Array"
+  ],
+  "author": "Danilo Filitto",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
