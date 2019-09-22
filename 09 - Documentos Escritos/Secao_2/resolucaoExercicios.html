@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Exercício</title>
+    </head>
+    <body>
+        <script>
+
+        </script>
+    </body>
+</html>
+<script>
+
+
+
+
+//Desenvolva a tarefa proposta no tempo proposto.
+//Conforme visto até agora, desenvolva o exercício proposto com que você aprendeu até o presente momento. 
+
+//Exercício 1: 
+    //Exiba seu nome na tela;
+console.log('Vinicius');
+
+//Exercício 2:
+    /*Crie uma variável com sua idade e a 
+    concatene com seu nome utilizando 
+    template literals exibindo na tela;*/
+var idade = 23;
+var str = `Vinicius tem ${idade} anos`;
+
+console.log(str);
+
+//Exercício 3: 
+    /*Crie uma variável com sua idade, 
+    outra com o ano atual tire a diferença, 
+    concatene com seu nome e exiba;*/
+var idade = 23;
+var anoAtual = 2019;
+
+var anoNascimento = anoAtual - idade;
+
+console.log("Vinicius nasceu no ano de " + anoNascimento);
+
+//Exercício 4: 
+    /*Crie 3 variáveis de notas, ache a 
+    média final e exiba com o nome do 
+    aluno concatenado;*/
+var n1 = 2.5;
+var n2 = 6;
+var n3 = 5.5;
+
+var mediaFinal = (n1 + n2 + n3) / 3;
+
+console.log('Aluno: Vinicius; média = ' + mediaFinal);
+
+//Exercício 5: 
+    /*Crie 2 variáveis de notas, seus respectivos
+    pesos são: n1 = 3, n2 = 7, ache a média 
+    ponderada e exiba com seu nome concatenado;*/
+var n1 = 8;
+var n2 = 4;
+
+var pesoN1 = 8 * 3; 
+var pesoN2 = 4 * 7; 
+
+var mediaFinal = (pesoN1 + pesoN2) / 10;
+
+console.log(`Vinicius obteve a média final = ${mediaFinal}`);
+
+//EXERCÍCIO MASTER (O DESAFIO): 
+    /*Chegou a hora de mostrar que você consegue 
+    correr atrás das coisas por conta própria !!! 
+    Pegue o exercício 3 e modifique para que seu 
+    algoritmo consiga pegar a data atual do sistema, 
+    sem que você tenha que colocar manualmente, depois 
+    exiba seu ano de nascimento com seu nome concatenados.*/
+
+var idade = 23;
+var dataAtual = new Date();
+var anoAtual = dataAtual.getFullYear();
+
+var anoNascimento = anoAtual - idade;
+
+console.log(`Vinicius nasceu em ${anoNascimento} e hoje em ${anoAtual} tem ${idade} anos de idade`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
